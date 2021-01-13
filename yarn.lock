@@ -1368,10 +1368,10 @@ slash@^3.0.0:
   resolved "https://registry.yarnpkg.com/slash/-/slash-3.0.0.tgz#6539be870c165adbd5240220dbe361f1bc4d4634"
   integrity sha512-g9Q1haeby36OSStwb4ntCGGGaKsaVSjQ68fBxoQcutl5fS1vuY18H3wSt3jFyFtrkx+Kz0V1G85A4MyAdDMi2Q==
 
-snowpack@^3.0.3:
-  version "3.0.3"
-  resolved "https://registry.yarnpkg.com/snowpack/-/snowpack-3.0.3.tgz#46b72fbb18cee0c1bc52e7a4be77764bde7a025e"
-  integrity sha512-nzvGZaB3H5xfZksg3Py3r5iDyEdtLwG9yLhhmrNJaN537qXsuUt6FKgzW2nD9dMkgjVpEwpAkv7VZ/3sL6H4Bw==
+snowpack@^3.0.5:
+  version "3.0.5"
+  resolved "https://registry.yarnpkg.com/snowpack/-/snowpack-3.0.5.tgz#e135fc4e03e67ec27c243e534b02668743823643"
+  integrity sha512-r/BYmc8EjBR+TTO0RCgm1+P8WLC/YOqKj9TldW5w2GWf27NsvZtYvDLmbi1N9krLFDClL9BJKsMNydeJjP4PvA==
   dependencies:
     esbuild "^0.8.7"
   optionalDependencies:
