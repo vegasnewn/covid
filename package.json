@@ -4,7 +4,7 @@
   "license": "MIT",
   "scripts": {
     "start": "snowpack dev",
-    "build": "snowpack build"
+    "build": "snowpack build && touch build/.nojekyll"
   },
   "dependencies": {
     "@snowpack/plugin-dotenv": "^2.0.5",
