@@ -3,5 +3,5 @@
 @tailwind utilities;
 
 tbody tr:nth-child(even) {
-  @apply bg-blueGray-300;
+  @apply bg-gray-200;
 }

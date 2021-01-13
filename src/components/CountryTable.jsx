@@ -53,7 +53,7 @@ const CountryTable = ({dataCountries}) => {
           </tr>
           <tr>
             <th>
-              <p className="px-3 py-1 text-left bg-gray-300">
+              <p className="px-3 py-1 text-left bg-blueGray-200">
                 <span
                   className="text-xs cursor-pointer hover:text-blue-600 hover:underline sm:text-sm md:text-base lg:text-lg"
                   onClick={() => sortByCountryName()}
