@@ -44,7 +44,7 @@ const CountryTable = ({dataCountries}) => {
     value: search,
     onChange: (e) => setSearch(e.target.value)
   }))), /* @__PURE__ */ React.createElement("th", null), /* @__PURE__ */ React.createElement("th", null), /* @__PURE__ */ React.createElement("th", null)), /* @__PURE__ */ React.createElement("tr", null, /* @__PURE__ */ React.createElement("th", null, /* @__PURE__ */ React.createElement("p", {
-    className: "px-3 py-1 text-left bg-gray-300"
+    className: "px-3 py-1 text-left bg-blueGray-200"
   }, /* @__PURE__ */ React.createElement("span", {
     className: "text-xs cursor-pointer hover:text-blue-600 hover:underline sm:text-sm md:text-base lg:text-lg",
     onClick: () => sortByCountryName()
