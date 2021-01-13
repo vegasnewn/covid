@@ -1,4 +1,4 @@
-import React from "../../_snowpack/pkg/react.js";
+import React from "../_snowpack/pkg/react.js";
 const Spinner = ({w, h}) => {
   return /* @__PURE__ */ React.createElement("svg", {
     className: `animate-spin mx-auto w-${w} h-${h}`,

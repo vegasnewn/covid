@@ -1,4 +1,4 @@
-import React, {useState} from "../../_snowpack/pkg/react.js";
+import React, {useState} from "../_snowpack/pkg/react.js";
 import {TableHead} from "./TableHead.js";
 import {TableDetail} from "./TableDetail.js";
 const CountryTable = ({dataCountries}) => {

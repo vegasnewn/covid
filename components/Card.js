@@ -1,5 +1,5 @@
-import React from "../../_snowpack/pkg/react.js";
-import NumberFormat from "../../_snowpack/pkg/react-number-format.js";
+import React from "../_snowpack/pkg/react.js";
+import NumberFormat from "../_snowpack/pkg/react-number-format.js";
 const Card = ({color, text, value, lastUpdated}) => {
   return /* @__PURE__ */ React.createElement("div", {
     className: `${color} text-white`

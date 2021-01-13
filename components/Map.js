@@ -1,8 +1,8 @@
-import * as __SNOWPACK_ENV__ from '../../_snowpack/env.js';
+import * as __SNOWPACK_ENV__ from '../_snowpack/env.js';
 
-import React from "../../_snowpack/pkg/react.js";
-import GoogleMapReact from "../../_snowpack/pkg/google-map-react.js";
-import NumberFormat from "../../_snowpack/pkg/react-number-format.js";
+import React from "../_snowpack/pkg/react.js";
+import GoogleMapReact from "../_snowpack/pkg/google-map-react.js";
+import NumberFormat from "../_snowpack/pkg/react-number-format.js";
 const {SNOWPACK_PUBLIC_API_KEY} = __SNOWPACK_ENV__;
 const Map = ({dataCountries}) => {
   const countriesLocations = dataCountries.map((item, i) => /* @__PURE__ */ React.createElement("div", {

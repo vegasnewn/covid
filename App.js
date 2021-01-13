@@ -1,9 +1,9 @@
-import React from "../_snowpack/pkg/react.js";
+import React from "./_snowpack/pkg/react.js";
 import {TotalCases} from "./components/TotalCases.js";
 import {Map} from "./components/Map.js";
 import {CountryTable} from "./components/CountryTable.js";
 import {Spinner} from "./components/Spinner.js";
-import useSWR from "../_snowpack/pkg/swr.js";
+import useSWR from "./_snowpack/pkg/swr.js";
 const fetcher = async (key) => {
   const url = `https://disease.sh/v3/covid-19/${key}`;
   const res = await fetch(url);

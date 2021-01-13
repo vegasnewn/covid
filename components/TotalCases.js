@@ -1,4 +1,4 @@
-import React from "../../_snowpack/pkg/react.js";
+import React from "../_snowpack/pkg/react.js";
 import {Card} from "./Card.js";
 const TotalCases = ({dataAll}) => {
   const {cases, deaths, population, updated} = dataAll;
