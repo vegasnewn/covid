@@ -1,8 +1,8 @@
 import React from 'react'
-import {TotalCases} from './components/TotalCases.jsx'
-import {Map} from './components/Map.jsx'
-import {CountryTable} from './components/CountryTable.jsx'
-import {Spinner} from './components/Spinner.jsx'
+import {TotalCases} from './components/TotalCases'
+import {Map} from './components/Map'
+import {CountryTable} from './components/CountryTable'
+import {Spinner} from './components/Spinner'
 import useSWR from 'swr'
 
 const fetcher = async key => {

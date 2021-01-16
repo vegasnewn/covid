@@ -1,5 +1,5 @@
 {
-  "name": "covid",
+  "name": "build",
   "version": "2.0.0",
   "license": "MIT",
   "scripts": {
@@ -17,7 +17,7 @@
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-number-format": "^4.4.4",
-    "snowpack": "^3.0.5",
+    "snowpack": "^3.0.11",
     "swr": "^0.4.0",
     "tailwindcss": "^2.0.2"
   }

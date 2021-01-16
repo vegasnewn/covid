@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
-import {TableHead} from './TableHead.jsx'
-import {TableDetail} from './TableDetail.jsx'
+import {TableHead} from './TableHead'
+import {TableDetail} from './TableDetail'
 
 const CountryTable = ({dataCountries}) => {
   const [sortedCountries, setSortedCountries] = useState(dataCountries)

@@ -1,5 +1,5 @@
 import React from 'react'
-import {Card} from './Card.jsx'
+import {Card} from './Card'
 
 const TotalCases = ({dataAll}) => {
   const {cases, deaths, population, updated} = dataAll
